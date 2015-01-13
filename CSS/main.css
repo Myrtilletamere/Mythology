@@ -1,40 +1,134 @@
+body {
+	background-image: url('../Image/colonne-full-couleur-fond2.jpg');
+	background-size: 100%, 100%;
+	
+	}
+
 
 div { 
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 }
 h1 {
       font-family : 'GFS Didot', serif;
       font-size:  38px;
 	  text-align: center;
 }
-#container {
-	width: 1000px;
-	margin: 0 auto;/* top/bottom left/right*/
+p {
+float: left;
+margin-left: 10px;
+}
+#frise {
+margin-left: -2px;
+background-image: url('../Image/frise-transparente.png');
+width: 100%;
+height: 70px;
+}
+.container {
+ width: 100%;
+ clear: both;
+ }
+ .frise {
+  float: left;
+  margin-left: -5px;
+  line-height: 10px;
+  baseline-shift: 0px;
+    font-size: 100%;
+  }
+  
+ .text {
+  width: 25%;
+  float: left;
+}  
+  
+ #block1 {
+ width: 25%;
+ float: left;
+ /*height: 150px;*/
+ margin: 210px auto 0px ;
+ background-image: url('../Image/backgroun-transparent.png');
+ 
+
+ }
+ 
+.thumbnails-image{
+width: 50%;
+display: block;
+float: left;
 }
 
-#header {
-	height: 140px;
-	}
-
-#left-col {
-	width : 500px;
-	float: left;
-	}
-#right-col {
-	width : 150px;
-	float: right;
-	}
-#another {
-	
-	}
-.row  {
-	clear: both;
-}	
-.menu-item {
-	background: black;
-	color: lightblue;
-	font-size: 24px;
-	padding: 8px 8px; /* top/down left/right*/
-	/* or: text-align: center;*/
-	margin-bottom: 16 px;
+#read-more {
+width: 100%;
+margin-left: 25%;
+display: inline;
 }
+ 
+ /*#1{
+
+ float:left;
+ }*/
+
+ #block2{
+ width: 25%;
+ /*height: 150px;*/
+ float: left;
+ margin: 30px auto 0px ;
+  background-image: url('../Image/backgroun-transparent.png');
+ }
+ 
+ /*#2 {
+ float: left;
+
+
+ }*/
+ 
+ #block3{
+ width: 25%;
+/*height: 150px;*/
+ float: left;
+ margin: 230px auto 0px ;
+ background-image: url('../Image/backgroun-transparent.png');
+ }
+  
+  /*#3 {
+ float: left;
+ }*/
+ 
+ #block4{
+ width: 25%;
+ /*height: 150px;*/
+ float: left;
+ margin: 50px auto 0px ;
+ background-image: url('../Image/backgroun-transparent.png');
+ }
+  
+  /*#4 {
+ float: left;
+ }*/
+ 
+ 
+ @media screen and (max-width:700px) {
+ #block1{
+ width: 300px;
+ height: 150px;
+ margin: 10px 10px ;
+ }
+ .thumbnails-image{
+width: 150px;
+display: block;
+}
+  #block2{
+ width: 300px;
+ height: 150px;
+ margin: 10px 110px ;
+ }
+  #block3{
+ width: 300px;
+ height: 150px;
+ margin: 10px 10px;
+ }
+  #block4{
+ width: 300px;
+ height: 150px;
+ margin: 10px 110px;
+ }
+ }

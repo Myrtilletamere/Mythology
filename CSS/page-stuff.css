@@ -1,0 +1,12 @@
+body {
+	background-image: url('../Image/colonne-full-couleur-fond2.jpg');
+	background-size: 100%, 100%;
+	background-attachment: fixed;
+	
+  	
+	}
+	#back{
+ position: fixed;
+ bottom: 5px;
+ left: 5px;
+ }

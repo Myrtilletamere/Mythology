@@ -1,0 +1,55 @@
+body {
+	background-image: url('../Image/colonne-full-couleur-fond2.jpg');
+	background-size: 100%, 100%;
+	background-attachment: fixed;
+	
+  	
+	}
+	a:link {color:#000000;text-decoration:none;}      /* unvisited link */
+    a:visited {color:#0000A0;}  /* visited link */
+    a:hover {color:#B87333;}  /* mouse over link */
+  	
+	h1 {
+      font-family : 'GFS Didot', serif;
+      font-size:  38px;
+	  text-align: center;
+}
+	
+#block1{
+width: 35%;
+ /*height: 150px;*/
+ float: left;
+ margin: 30px auto 0px 150px ;
+ text-align: center;
+ font-family : 'GFS Didot', serif;
+ font-style: none;
+ background-image: url('../Image/backgroun-transparent.png');
+}
+.description{
+display:none;
+}
+#back{
+ position: fixed;
+ bottom: 5px;
+ left: 5px;
+ }
+
+
+#block2{
+width: 35%;
+ /*height: 150px;*/
+ float: left;
+ margin: 30px auto 0px 150px ;
+ text-align: center;
+ font-family : 'GFS Didot', serif;
+ font-style: none;
+ background-image: url('../Image/backgroun-transparent.png');
+}
+
+@media screen and (max-width:1050px) {
+#block1{
+margin-left: 32.5%;
+}
+#block2{
+margin-left: 32.5%;
+}
